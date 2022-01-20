@@ -16,3 +16,5 @@ const difference = 45 - 33;
 
 // 13 Multiply Two Numbers with JavaScript
 const product = 8 * 10;
+
+// 14 Divide One Number by Another with JavaScript
