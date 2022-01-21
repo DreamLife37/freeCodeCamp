@@ -34,3 +34,6 @@ myVar--;
 const ourDecimal = 5.7;
 // Only change code below this line
 let myDecimal = ourDecimal;
+
+// 18 Multiply Two Decimals with JavaScript
+const product = 2.0 * 2.5;
