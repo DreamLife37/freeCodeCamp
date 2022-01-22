@@ -69,7 +69,16 @@ let b = 12;
 let c = 4.6;
 // Only change code below this line
 a *= 5;  //a = a * 5;
-b *= b;  //b = 3 * b;
+b *= 3;  //b = 3 * b;
 c *= 10; //c = c * 10;
+
+// 24 Compound Assignment With Augmented Division
+let a = 48;
+let b = 108;
+let c = 33;
+// Only change code below this line
+a /= 12; //a = a / 12;
+b /= 4;  //b = b / 4;
+c /= 11; //c = c / 11;
 
 
