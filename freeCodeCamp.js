@@ -62,3 +62,14 @@ let c = 3;
 a -= 6;  //a = a - 6;
 b -= 15; //b = b - 15;
 c -= 1;  //c = c - 1;
+
+// 23 Compound Assignment With Augmented Multiplication
+let a = 5;
+let b = 12;
+let c = 4.6;
+// Only change code below this line
+a *= 5;  //a = a * 5;
+b *= b;  //b = 3 * b;
+c *= 10; //c = c * 10;
+
+
