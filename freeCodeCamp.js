@@ -37,3 +37,6 @@ let myDecimal = ourDecimal;
 
 // 18 Multiply Two Decimals with JavaScript
 const product = 2.0 * 2.5;
+
+// 19 Divide One Decimal by Another with JavaScript
+const quotient = 4.4 / 2.0; // Change this line
