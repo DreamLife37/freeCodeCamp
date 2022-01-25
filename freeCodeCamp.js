@@ -59,17 +59,17 @@ let a = 11;
 let b = 9;
 let c = 3;
 // Only change code below this line
-a -= 6;  //a = a - 6;
+a -= 6; //a = a - 6;
 b -= 15; //b = b - 15;
-c -= 1;  //c = c - 1;
+c -= 1; //c = c - 1;
 
 // 23 Compound Assignment With Augmented Multiplication
 let a = 5;
 let b = 12;
 let c = 4.6;
 // Only change code below this line
-a *= 5;  //a = a * 5;
-b *= 3;  //b = 3 * b;
+a *= 5; //a = a * 5;
+b *= 3; //b = 3 * b;
 c *= 10; //c = c * 10;
 
 // 24 Compound Assignment With Augmented Division
@@ -78,7 +78,7 @@ let b = 108;
 let c = 33;
 // Only change code below this line
 a /= 12; //a = a / 12;
-b /= 4;  //b = b / 4;
+b /= 4; //b = b / 4;
 c /= 11; //c = c / 11;
 
 // 25 Escaping Literal Quotes in Strings
@@ -95,3 +95,6 @@ const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
 Первая строка
 	\Вторая линия
 Третья линия */
+
+// 28 Concatenating Strings with Plus Operator
+const myStr = "This is the start. " + "This is the end."; // Change this line
