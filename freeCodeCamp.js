@@ -88,3 +88,10 @@ console.log(myStr)
 
 // 26 Quoting Strings with Single Quotes
 const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+
+// 27 Escape Sequences in Strings
+const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
+/* myStr:
+Первая строка
+	\Вторая линия
+Третья линия */
