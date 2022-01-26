@@ -263,3 +263,19 @@ const myArray = [
 myArray.shift();
 // Only change code below this line
 myArray.unshift(["Paul", 35]) // myArray = [["Paul", 35], ["dog", 3]]
+
+// 48 Shopping List
+const myList = [
+	['Potato', 5],
+	['bread', 1],
+	['cucumber', 3],
+	['corn', 2],
+	['water', 4]
+];
+
+// 49 Write Reusable JavaScript with Functions
+function reusableFunction() {
+	console.log('Hi World')
+}
+
+reusableFunction();
