@@ -163,7 +163,7 @@ const myAdjective = "big";
 const myVerb = "ran";
 const myAdverb = "quickly";
 // Only change code below this line
-const wordBlanks = myAdjective + ' ' + myNoun + ' '+ myVerb + ' ' + myAdverb; // Change this line
+const wordBlanks = myAdjective + ' ' + myNoun + ' ' + myVerb + ' ' + myAdverb; // Change this line
 // Only change code above this line
 
 // 39 Store Multiple Values in one Variable using JavaScript Arrays
@@ -173,4 +173,93 @@ const myArray = ['string', 5];
 // 40 Nest one Array within Another Array
 //Вложение одного массива в другой
 // Only change code below this line
-const myArray = ['Array - 1',['Array - 2']];
+const myArray = ['Array - 1', ['Array - 2']];
+
+// 41 Access Array Data with Indexes
+//Доступ к данным массива с помощью индекса
+const myArray = [50, 60, 70];
+const myData = myArray[0]
+
+// 42 Modify Array Data With Indexes
+//В отличии от строк данные массива можно изменять
+// Setup
+const myArray = [18, 64, 99];
+// Only change code below this line
+myArray[0] = 45
+
+// 43 Access Multi-Dimensional Arrays With Indexes
+/* Доступ к многомерным массивам
+const arr = [
+	[1, 2, 3],
+	[4, 5, 6],
+	[7, 8, 9],
+	[[10, 11, 12], 13, 14]
+  ];
+  
+  arr[3];
+  arr[3][0];
+  arr[3][0][1];
+  arr[3]есть [[10, 11, 12], 13, 14], arr[3][0] есть [10, 11, 12] и arr[3][0][1] есть 11 */
+
+const myArray = [
+	[1, 2, 3],
+	[4, 5, 6],
+	[7, 8, 9],
+	[
+		[10, 11, 12], 13, 14
+	],
+];
+
+const myData = myArray[2][1]; //цифра 8
+
+// 44 Manipulate Arrays With push()
+//Простой способ добавления данных в конец массива — через push()функцию.
+// Setup
+const myArray = [
+	["John", 23],
+	["cat", 2]
+];
+
+// Only change code below this line
+myArray.push(["dog", 3]) //  результат: [["John", 23], ["cat", 2], ["dog", 3]]
+
+// 45 Manipulate Arrays With pop()
+//.pop() удаляет последний элемент из массива и возвращает этот элемент.
+const threeArr = [1, 4, 6];
+const oneDown = threeArr.pop();
+console.log(oneDown); // 6
+console.log(threeArr); // [1, 4]
+
+// Setup
+const myArray = [
+	["John", 23],
+	["cat", 2]
+];
+// Only change code below this line
+const removedFromMyArray = myArray.pop() //["cat", 2]
+
+// 46 Manipulate Arrays With shift()
+//.shift() удаляет первый элемент из массива
+// Setup
+const myArray = [
+	["John", 23],
+	["dog", 3]
+];
+// Only change code below this line
+const removedFromMyArray = myArray.shift() //["John", 23]
+
+// 47 Manipulate Arrays With unshift()
+//.unshift()работает точно так же .push(), но вместо добавления элемента в конец массива unshift()добавляет элемент в начало массива.
+
+const ourArray = ["Stimpson", "J", "cat"];
+ourArray.shift(); //ourArray = [ "J", "cat"];
+ourArray.unshift("Happy"); //ourArray = ["Happy", "J", "cat"];
+
+// Setup
+const myArray = [
+	["John", 23],
+	["dog", 3]
+];
+myArray.shift();
+// Only change code below this line
+myArray.unshift(["Paul", 35]) // myArray = [["Paul", 35], ["dog", 3]]
