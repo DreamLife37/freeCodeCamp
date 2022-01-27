@@ -346,15 +346,74 @@ console.log(myOutfit());
 let sum = 0;
 
 function addThree() {
-  sum = sum + 3;
+	sum = sum + 3;
 }
 
 // Only change code below this line
 function addFive() {
-  sum = sum + 5
+	sum = sum + 5
 }
 
 // Only change code above this line
 console.log(addThree());
 console.log(addFive());
 console.log(sum)
+
+// 56 Assignment with a Returned Value
+// Setup
+let processed = 0;
+
+function processArg(num) {
+	return (num + 3) / 5;
+}
+
+// Only change code below this line
+processed = processArg(7)
+
+// 57 Stand in Line
+function nextInLine(arr, item) {
+	// Only change code below this line
+	arr.push(item)
+
+	return arr.shift();
+	// Only change code above this line
+}
+console.log(nextInLine([2], 1))
+
+// Setup
+const testArr = [1, 2, 3, 4, 5];
+
+// Display code
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log("After: " + JSON.stringify(testArr));
+
+// 58 Understanding Boolean Values
+function welcomeToBooleans() {
+	// Only change code below this line
+	return true; // Change this line
+	// Only change code above this line
+}
+
+// 59 Use Conditional Logic with If Statements
+function trueOrFalse(wasThatTrue) {
+	// Only change code below this line
+	if (wasThatTrue) {
+		return 'Yes, that was true';
+	}
+	return 'No, that was false';
+
+	// Only change code above this line
+}
+
+// 60 Comparison with the Equality Operator
+// Setup
+function testEqual(val) {
+	if (val == 12) { // Change this line
+		return "Equal";
+	}
+	return "Not Equal";
+}
+
+console.log(testEqual(10));
+console.log(testEqual("12"))
